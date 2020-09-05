@@ -33,7 +33,7 @@ public class Main {
     private static void menu(String choice) {
         switch (choice) {
             case "1" -> System.out.println("One selected");
-            case "2" -> System.out.println("Two Selected")
+            case "2" -> System.out.println("Two Selected");
             default -> System.err.println("You selected a unknown choice: ");
         }
     }
